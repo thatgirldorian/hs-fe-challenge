@@ -5,11 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#007AFF",
-        secondary: "#5856D6",
-        success: "#34C759",
-        warning: "#FF9500",
-        error: "#FF3B30",
+        "primary-color": "var(--primary-color)",
+        "secondary-color": "var(--secondary-color)",
       },
       fontFamily: {
         apercu: ["Apercu Pro", "sans-serif"],

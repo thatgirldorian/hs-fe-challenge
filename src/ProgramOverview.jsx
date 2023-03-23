@@ -3,7 +3,7 @@ import React from "react";
 export function ProgramOverview() {
   return (
     <div className="">
-      <p className="text-[36px] font-semibold">
+      <p className="text-[36px] text-[color:var(--primary-color)] font-semibold">
         Interaction Design Apprenticeship
       </p>
       <p className="font-semibold">
