@@ -1,5 +1,9 @@
+import React from "react"
+
 export function Header() {
     return(
-        <p>HEY</p>
+        <nav>
+            
+        </nav>
     )
 }
