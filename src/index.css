@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Apercu Pro";
+  src: url("../public/fonts/Apercu_Regular.otf ");
+}

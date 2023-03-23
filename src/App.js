@@ -1,10 +1,11 @@
 import { Header } from "./Header";
-import "./App.css";
+import { ProgramInformation } from "./ProgramInformation";
 
 function App() {
   return (
     <>
       <Header />
+      <ProgramInformation />
     </>
   );
 }
