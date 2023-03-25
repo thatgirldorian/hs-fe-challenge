@@ -9,10 +9,17 @@
 
 @font-face {
   font-family: "Apercu Pro";
-  src: url("../public/fonts/Apercu\ Pro\ Bold.otf");
+  src: url("../public/fonts/Apercu_Regular.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face {
+/* .thin-text {
+  font-family: "Apercu Pro", "sans-serif";
+  font-weight: 200;
+} */
+
+/* @font-face {
   font-family: "Apercu Pro";
   src: url("../public/fonts/Apercu\ Pro\ Light.otf");
 }
@@ -20,4 +27,4 @@
 @font-face {
   font-family: "Apercu Pro";
   src: url("../public/fonts/Apercu\ Pro\ Medium.otf");
-}
+} */
