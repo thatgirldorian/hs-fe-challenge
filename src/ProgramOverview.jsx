@@ -19,7 +19,7 @@ export function ProgramOverview() {
       <p className="my-8 text-[22px]">
         <span className="font-bold">Position:</span> Marketing Performance
       </p>
-      <button className="text-sm rounded-full bg-[color:var(--primary-color)] text-white px-[24px] py-2 my-4">
+      <button className="text-[18px] rounded-full bg-[color:var(--primary-color)] text-white px-[40px] py-[16px] my-5">
         Apply Now
       </button>
     </div>
