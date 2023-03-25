@@ -9,5 +9,15 @@
 
 @font-face {
   font-family: "Apercu Pro";
-  src: url("../public/fonts/Apercu_Regular.otf ");
+  src: url("../public/fonts/Apercu\ Pro\ Bold.otf");
+}
+
+@font-face {
+  font-family: "Apercu Pro";
+  src: url("../public/fonts/Apercu\ Pro\ Light.otf");
+}
+
+@font-face {
+  font-family: "Apercu Pro";
+  src: url("../public/fonts/Apercu\ Pro\ Medium.otf");
 }
