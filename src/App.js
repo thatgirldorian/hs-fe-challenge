@@ -1,6 +1,7 @@
 import { Header } from "./Header";
 import { ProgramInformation } from "./ProgramInformation";
 import { ScholarshipDetails } from "./ScholarshipDetails";
+import { Testimonials } from "./Testimonials";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <ProgramInformation />
       <ScholarshipDetails />
+      <Testimonials />
     </>
   );
 }
