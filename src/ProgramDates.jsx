@@ -11,7 +11,7 @@ export function ProgramDates() {
             <img src={logo} alt="Zeptolab logo" />
           </div>
 
-          <div className="ml-[-116px]">
+          <div className="ml-[-116px] flex items-center">
             <p>
               <span className="text-[18px]">Powered by:</span> <br></br>{" "}
               <span className="text-[24px]"> ZeptoLab</span>
@@ -49,7 +49,7 @@ export function ProgramDates() {
       <img
         src={backgroundPattern}
         alt="Background Pattern"
-        className="absolute top-[167px] right-[-160px] z-[-1] h-full"
+        className="md:hidden absolute top-[167px] right-[-160px] z-[-1] h-full"
       />
     </div>
   );

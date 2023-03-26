@@ -6,9 +6,9 @@ import studentPhoto from "./assets/Student_Photo.svg";
 
 export function ProgramInformation() {
   return (
-    <div className="grid grid-cols-2 gap-24 mx-40 mt-24">
+    <div className="md:flex md:flex-col md:mx-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:mx-40 mt-48">
       <ProgramOverview />
-      <ProgramDates />
+      <ProgramDates className />
       <div className="relative">
         <img className="w-[380px]" src={studentPhoto} alt="A smiling student" />
         <img

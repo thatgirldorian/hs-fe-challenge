@@ -6,7 +6,7 @@ import "./index.css";
 export function Header() {
   return (
     <div className="relative">
-      <nav className="bg-[#685EC5] mx-auto flex items-center justify-between px-8 py-2">
+      <nav className="bg-[#685EC5] mx-auto flex items-center md:w-[100%] justify-between px-8 py-2">
         <div className="flex items-center">
           <p className="text-white uppercase mr-2 font-medium">Harbour.Space</p>
           <p className="text-white text-[10px] uppercase mb-1">
@@ -16,7 +16,7 @@ export function Header() {
         <div className="md:block">
           <MenuIcon className="menu-icon" />
         </div>
-        <CircleButton className="sm:hidden">
+        <CircleButton>
           Apply <br></br> now
         </CircleButton>
       </nav>
