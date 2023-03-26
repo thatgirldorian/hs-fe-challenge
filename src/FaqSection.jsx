@@ -10,8 +10,8 @@ export function FaqSection() {
             Frequently asked <br></br> questions
           </p>
         </div>
-        <div className="mr-[24px]">Filter by:</div>
-        <div className="relative ">
+        <div className="ml-auto">Filter by:</div>
+        <div className="relative ml-[24px]">
           <button className="flex text-[18px] border-[#dadada] border-[1px] rounded-full bg-white text-[color:var(--primary-color)] pl-[36px] pr-[56px] py-[17px]">
             Program conditions
             <img
