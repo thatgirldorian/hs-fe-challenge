@@ -3,7 +3,7 @@ import React from "react";
 export function InteractionDesignLogo() {
   return (
     <svg
-      className="absolute top-[-270px] right-[65px] z-[-1] h-full w-[206px]"
+      className="absolute top-[-290px] right-[125px] z-[-1] h-full w-[206px]"
       width="206"
       height="206"
       viewBox="0 0 206 206"

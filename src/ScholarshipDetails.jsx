@@ -4,11 +4,11 @@ export function ScholarshipDetails() {
   return (
     <>
       <div className="my-[76px] grid grid-cols-3 mx-40 gap-4 pr-[40px]">
-        <div class="row-span-2 border-[1px] border-color[#DADADA] rounded-[4px] w-[320px] h-[524px]">
+        <div class="px-[44px] py-[32px] row-span-2 border-[1px] border-color[#DADADA] rounded-[4px] w-[320px] h-[524px]">
           <p className="text-[16px] text-[color:var(--primary-color)]">
             Scholarship value
           </p>
-          <p className="text-[34px]">€31,300</p>
+          <p className="text-[34px] font-light">€31,300</p>
           <hr></hr>
           <div className="grid grid-cols-2">
             <div className="">
