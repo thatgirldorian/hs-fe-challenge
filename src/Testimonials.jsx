@@ -14,7 +14,7 @@ export function Testimonials() {
   return (
     <div className="my-[279px] mx-40">
       <Swiper
-        spaceBetween={50}
+        spaceBetween={20}
         navigation={true}
         modules={[Navigation]}
         className="mySwiper"
