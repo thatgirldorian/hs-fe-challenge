@@ -7,6 +7,10 @@
   --secondary-color: #535353;
 }
 
+.middle-grid {
+  grid-template-columns: repeat(2, 320px) auto auto;
+}
+
 @font-face {
   font-family: "Apercu Pro";
   src: url("../public/fonts/Apercu_Regular.otf");
