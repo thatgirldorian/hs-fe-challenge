@@ -2,6 +2,7 @@ import { Header } from "./Header";
 import { ProgramInformation } from "./ProgramInformation";
 import { ScholarshipDetails } from "./ScholarshipDetails";
 import { Testimonials } from "./Testimonials";
+import { FaqSection } from "./FaqSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ProgramInformation />
       <ScholarshipDetails />
       <Testimonials />
+      <FaqSection />
     </>
   );
 }
