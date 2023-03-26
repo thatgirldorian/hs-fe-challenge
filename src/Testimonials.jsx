@@ -19,7 +19,7 @@ export function Testimonials() {
       <img
         src={testimonialsPattern}
         alt="A nice pattern in the background"
-        className="absolute right-40 bottom-[-1690px] z-[-1] h-full w-[1120px]"
+        className="absolute right-40 bottom-[-1890px] z-[-1] h-full w-[1120px]"
       />
       <div className="mt-[279px] mx-40">
         <Swiper
