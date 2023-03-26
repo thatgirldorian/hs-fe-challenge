@@ -5,8 +5,8 @@ import backgroundPattern from "./assets/Pattern.svg";
 export function ProgramDates() {
   return (
     <div className="relative">
-      <div className="grid-cols-1 ">
-        <div className="grid grid-cols-2 gap-0">
+      <div className="grid-cols-1">
+        <div className="grid grid-cols-2 gap-0 md:my-12">
           <div className="w-[90px]">
             <img src={logo} alt="Zeptolab logo" />
           </div>

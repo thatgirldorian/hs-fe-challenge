@@ -6,15 +6,15 @@ import studentPhoto from "./assets/Student_Photo.svg";
 
 export function ProgramInformation() {
   return (
-    <div className="md:flex md:flex-col md:mx-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:mx-40 mt-48">
+    <div className="md:flex md:flex-col md:mx-24 lg:grid lg:grid-cols-2 lg:gap-24 lg:mx-40 lg:my-40">
       <ProgramOverview />
       <ProgramDates className />
-      <div className="relative">
-        <img className="w-[380px]" src={studentPhoto} alt="A smiling student" />
+      <div className="relative md:my-16 lg:my-0">
+        <img className="w-[280px]" src={studentPhoto} alt="A smiling student" />
         <img
           src={circlePattern}
           alt="Circle pattern in the background"
-          className="absolute top-[-14px] right-[90px] z-[-1] h-full w-[438px]"
+          className="absolute top-[-10px] right-[180px] z-[-1] h-full w-[458px]"
         />
       </div>
       <div>
