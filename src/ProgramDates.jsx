@@ -18,7 +18,7 @@ export function ProgramDates() {
             </p>
           </div>
         </div>
-        <div className="border-[1px] border-color[#DADADA] rounded-[4px] my-4 w-[480px] h-[116px] py-[24px] px-[40px]">
+        <div className="border-[1px] border-[#DADADA] rounded-[4px] my-4 w-[480px] h-[116px] py-[24px] px-[40px]">
           <p className="text-[color:var(--primary-color)] text-[16px]">
             Application closes in
           </p>

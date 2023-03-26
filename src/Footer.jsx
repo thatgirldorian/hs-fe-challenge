@@ -2,7 +2,7 @@ import React from "react";
 
 export function Footer() {
   return (
-    <footer className="mt-[220px] fixed bottom-0 left-0 w-full h-86 flex items-center justify-between bg-white">
+    <footer className="mt-[220px] border-[1px] border-[#dadada] fixed bottom-0 left-0 w-full h-86 flex items-center justify-between bg-white">
       <div className="flex items-center px-[64px] py-[22px]">
         <div className="pr-[64px]">
           <p className="text-[16px]"> Zeptolab</p>
