@@ -14,7 +14,7 @@ export function ScholarshipDetails() {
           <hr></hr>
           <div className="grid grid-cols-2 mt-12">
             <div className=" pb-4">
-              <p className="text-[color:var(--primary-color)] font-medium ">
+              <p className="text-[color:var(--primary-color)] font-medium">
                 Tuition covered
               </p>
               <p>€20,900</p>

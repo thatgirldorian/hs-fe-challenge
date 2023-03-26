@@ -21,7 +21,7 @@ export function Testimonials() {
         alt="A nice pattern in the background"
         className="absolute right-40 bottom-[-1890px] z-[-1] h-full w-[1120px]"
       />
-      <div className="mt-[279px] mx-40">
+      <div className="mt-[279px] mx-40 max-h-[calc(100vh-279px)] overflow-hidden">
         <Swiper
           spaceBetween={20}
           navigation={true}

@@ -11,9 +11,9 @@ export function FaqSection() {
             Frequently asked <br></br> questions
           </p>
         </div>
-        <div className="ml-auto">Filter by:</div>
+        <p className="ml-auto font-light text-[16px]">Filter by:</p>
         <div className="relative ml-[24px]">
-          <button className="flex text-[18px] border-[#dadada] border-[1px] rounded-full bg-white text-[color:var(--primary-color)] pl-[36px] pr-[56px] py-[17px]">
+          <button className="flex text-[18px] font-medium border-[#dadada] border-[1px] rounded-full bg-white text-[color:var(--primary-color)] pl-[36px] pr-[56px] py-[17px]">
             Program conditions
             <img
               src={filterArrow}
