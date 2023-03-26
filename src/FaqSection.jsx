@@ -7,7 +7,7 @@ export function FaqSection() {
     <>
       <div className="mx-[146px] my-[65px] flex items-center justify-between">
         <div>
-          <p className="text-[48px] text-[color:var(--primary-color)]">
+          <p className="text-[48px] font-medium text-[color:var(--primary-color)]">
             Frequently asked <br></br> questions
           </p>
         </div>
@@ -23,7 +23,7 @@ export function FaqSection() {
           </button>
         </div>
       </div>
-      <hr></hr>
+      <hr className="mx-[150px]"></hr>
       <div className="mb-[220px]">
         <FaqContent
           tag={"Program conditions"}
@@ -32,7 +32,7 @@ export function FaqSection() {
             "The majority of our students receive numerous job offers at the end of the second academic year of their Bachelor's programme and at the end of the first academic year of their Master's programme. The best applicants receive an offer from our industrial partners at the beginning of their programmes. \n\nHarbour.Space is highly recognized among innovative employers and is strategic partner of B.Grimm multi- industry corporation with 140 years of history in Thailand. Together we insure students get the best knowledge about the current job market opportunities. \n\nWe offer our students paid internships options during studies jointly with our industrial partners. \n\nEmployers that hired graduates of Harbour.Space in the past include Google, IBM, Accenture, Typeform, Frog, and other tech centric companies. Our industry specific employability report could be provided to you separately during the admission process."
           }
         />
-        <hr></hr>
+        <hr className="mx-[150px]"></hr>
 
         <FaqContent
           tag={"Program conditions"}
@@ -42,7 +42,7 @@ export function FaqSection() {
           }
         />
 
-        <hr></hr>
+        <hr className="mx-[150px]"></hr>
 
         <FaqContent
           tag={"Program conditions"}
@@ -52,7 +52,7 @@ export function FaqSection() {
           }
         />
 
-        <hr></hr>
+        <hr className="mx-[150px]"></hr>
 
         <FaqContent
           tag={"Program conditions"}
@@ -61,7 +61,7 @@ export function FaqSection() {
             "The majority of our students receive numerous job offers at the end of the second academic year of their Bachelor's programme and at the end of the first academic year of their Master's programme. The best applicants receive an offer from our industrial partners at the beginning of their programmes. \n\nHarbour.Space is highly recognized among innovative employers and is strategic partner of B.Grimm multi- industry corporation with 140 years of history in Thailand. Together we insure students get the best knowledge about the current job market opportunities. \n\nWe offer our students paid internships options during studies jointly with our industrial partners. \n\nEmployers that hired graduates of Harbour.Space in the past include Google, IBM, Accenture, Typeform, Frog, and other tech centric companies. Our industry specific employability report could be provided to you separately during the admission process."
           }
         />
-        <hr></hr>
+        <hr className="mx-[150px]"></hr>
       </div>
     </>
   );

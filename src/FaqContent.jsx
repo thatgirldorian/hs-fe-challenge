@@ -29,7 +29,7 @@ export function FaqContent({ tag, title, content }) {
         <div className="p-4 w-[80%]">
           <div className="ml-72">
             {content.split("\n").map((paragraph, index) => (
-              <p key={index} className="text-gray-600 mb-4">
+              <p key={index} className="text-gray-600 mb-4 font-light">
                 {paragraph}
               </p>
             ))}

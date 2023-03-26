@@ -10,11 +10,11 @@ export function ProgramInformation() {
       <ProgramOverview />
       <ProgramDates />
       <div className="relative md:my-16 lg:my-0">
-        <img className="w-[280px]" src={studentPhoto} alt="A smiling student" />
+        <img className="w-[320px]" src={studentPhoto} alt="A smiling student" />
         <img
           src={circlePattern}
           alt="Circle pattern in the background"
-          className="absolute top-[-10px] right-[180px] z-[-1] h-full w-[458px]"
+          className="absolute top-[-25px] right-[140px] z-[-1] h-full w-[458px]"
         />
       </div>
       <div>
